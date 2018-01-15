@@ -33,7 +33,9 @@ sar_viz.save('sample.pdf')
 
 
 ## Demo
+```
 python demo.py ./data/sample.log ./output
+```
 
 
 # Example Visualization
