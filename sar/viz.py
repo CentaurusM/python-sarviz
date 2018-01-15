@@ -3,6 +3,11 @@
 :mod:`sar.viz` is a module containing classes for visualizing sar logs.
 '''
 
+import matplotlib
+
+#Generate images withtout having a window appear
+matplotlib.use('Agg') 
+
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
